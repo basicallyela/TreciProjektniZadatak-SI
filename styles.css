@@ -3,7 +3,8 @@ body{
 }
 
 .container{
-    background: linear-gradient(to right, #f08080, #ff6277, rgb(255, 59, 95));
+    border: solid 8px white;
+    background: black;
     position: absolute;
     margin: auto;
     top: 0;
@@ -17,32 +18,32 @@ body{
 }
 
 #player1, #player2{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    top: 12px;
-    font-size: 40px;
-    font-family: 'Space Grotesk', sans-serif;
+    top: 20px;
+    font-size: 90px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #player1{
-    left:262px;
+    left:350px;
 }
 
 #player2{
-    left: 806px;
+    left: 650px;
 }
  
 #paddle1, #paddle2{
     position: absolute;
     background: white;
     height: 70px;
-    width: 10px;
+    width: 15px;
 }
 
 #ball{
-    background-color: black;
-    height: 20px;
-    width: 20px;
+    background-color: white;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     position: absolute;
 }
